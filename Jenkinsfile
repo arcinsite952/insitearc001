@@ -4,13 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo Building...'
+                sh 'echo Build successful!'
             }
         }
-        stage('Deploy') {
-             {
-                branch 'main'
-            }
+
+        stage('Deploy to Hostinger') {
             steps {
                 sshPublisher(
                     publishers: [
