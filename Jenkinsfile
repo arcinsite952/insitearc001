@@ -17,7 +17,7 @@ pipeline {
         }
 
         stage('Deploy to Hostinger') {
-            when {
+         {
                 branch 'main'  // only deploy on main branch
             }
             steps {
