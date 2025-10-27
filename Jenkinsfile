@@ -19,7 +19,7 @@ pipeline {
                                     sourceFiles: '**/*',
                                     removePrefix: '',
                                     remoteDirectory: '/home/u935056060/domains/steakin.insitearc.com/public_html',
-                                    execCommand: 'chmod -R 755 /home/u935056060/domains/steakin.insitearc.com/public_html'
+                                    
                                 )
                             ],
                             verbose: true
